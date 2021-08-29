@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.outerbox {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-color: rgb(243, 21, 21);
+}
+
+.outerbox .ved-1 {
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    bottom: 30px;
+    background-color: rgb(96, 134, 134);
+}
+
+.outerbox .ved-2 {
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    bottom: 30px;
+    background-color: rgb(96, 134, 134);
+}
+
+.outerbox .ved-3 {
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    right: 25px;
+    left: 25px;
+    bottom: 30px;
+    background-color: rgb(96, 134, 134);
+}
+
+.outerbox .ved-3 .innerbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.outerbox .ved-4 {
+    width: 43%;
+    height: 540px;
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    bottom: 30px;
+    background-color: rgb(96, 134, 134);
+}
+
+.outerbox .ved-5 {
+    width: 43%;
+    height: 540px;
+    position: absolute;
+    top: 30px;
+    right: 25px;
+    bottom: 30px;
+    background-color: rgb(96, 134, 134);
+}
+
+.outerbox .ved-6 {
+    width: 100%;
+    height: 260px;
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    background-color: rgb(96, 134, 134);
+}
+
+.outerbox .ved-7 {
+    width: 100%;
+    height: 260px;
+    position: absolute;
+    top: 60px;
+    right: 25px;
+}
+
+.outerbox .ved-8 {
+    width: 100%;
+    height: 260px;
+    position: absolute;
+    right: 25px;
+    bottom: 30px;
+    background-color: rgb(96, 134, 134);
+}
+
+.outerbox .ved-9 {
+    width: 100%;
+    height: 260px;
+    position: absolute;
+    left: 25px;
+    bottom: 30px;
+}
+
+@media screen and (max-width:768px) {
+    .outerbox {
+        margin-top: 20px
+    }
+
+    .outerbox .ved-1 {
+        height: 200px;
+    }
+
+    .outerbox .ved-2 {
+        height: 200px;
+    }
+
+    .outerbox .ved-3 {
+        height:300px;
+    }
+
+    .outerbox .ved-4 {
+        width: 84%;
+        height: 260px;
+        position: absolute;
+        top: 30px;
+        left: 25px;
+        bottom: 30px;
+        background-color: rgb(96, 134, 134);
+    }
+
+    .outerbox .ved-5 {
+        width: 84%;
+        height: 260px;
+        position: absolute;
+        top: 315px;
+        right: 30px;
+        bottom: 25px;
+        background-color: rgb(96, 134, 134);
+    }
+
+    .outerbox .ved-7 {
+        width: 100%;
+        height: 260px;
+        position: absolute;
+        top: 60px;
+        right: 25px;
+    }
+
+    .outerbox .ved-9 {
+        width: 100%;
+        height: 260px;
+        position: absolute;
+        left: 25px;
+        bottom: 30px;
+    }
+
+    .ved-9 img {
+        width: 100%;
+    }
+
+    .ved-7 img {
+        width: 100%;
+        position: absolute;
+        top: 90px;
+    }
+
+}
